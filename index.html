@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+
+<head>
+
+    <head>
+        <!-- Include meta tag to ensure proper rendering and touch zooming -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Include jQuery Mobile stylesheets -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+       
+        <!-- Include the jQuery library -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <!-- Include the jQuery Mobile library -->
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+    </head>
+
+<body>
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <h1>My Favorite<br> You Tube sites</h1>
+        </div>
+
+        <div data-role="content" class="ui-corner-all">
+            <p>While you are at home "sheltering" in place I am sure there are several You tube channels that you visit to either entertain or educate or both. I have thee links here to three of my favorite you tube channels</p>
+            <ol data-role="listview">
+                <li><a href="#pagetwo">Learn German with Anja</a></li>
+                <li><a href="#pagethree">Learn About your Mac</a></li>
+                <li> <a href="#pagefour">A tech guy who likes details</a></li>
+            </ol>
+        </div>
+
+        <div data-role="footer">
+            <h1>My fav sites</h1>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="pagetwo">
+        <div data-role="header">
+            <h1>Learn German with Anja</h1>
+        </div>
+
+        <div data-role="content" class="ui-corner-all">
+            <p>Anja Winter is a german born polyglot.  Speaks 4+ languages and has her own you tube site and online language business</p>
+            <div id='bl'>
+                <p><a href="https://www.youtube.com/watch?v=IBSzjGjmRbc"><img src="anja.png" /></a></p>
+                <p>Click the picture</p>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h1><a href="#pageone">Return to Home</a></h1>
+        </div>
+
+    </div>
+
+
+
+
+    <div data-role="page" id="pagethree">
+        <div data-role="header">
+            <h1>Learn German with Anja</h1>
+        </div>
+
+        <div data-role="content" class="ui-corner-all">
+            <p>Sharpen your tech skills.  Learn new skills! Maintain your digital investment</p>
+            <div id='bl'>
+                <p><a href="https://www.youtube.com/watch?v=hp3SlXohKq0"><img src="tech.png" /></a></p>
+                <p>Click the picture</p>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h1><a href="#pageone">Return to Home</a></h1>
+        </div>
+
+    </div>
+    
+    
+    <div data-role="page" id="pagefour">
+        <div data-role="header">
+            <h1>Learn German with Anja</h1>
+        </div>
+
+        <div data-role="content" class="ui-corner-all">
+            <p>This guy is very good and he always seems to answer the questions that you have about tech,</p>
+            <div id='bl'>
+                <p><a href="https://www.youtube.com/watch?v=yaq6fegsz_M"><img src="lon.png" /></a></p>
+                <p>Click the picture</p>
+            </div>
+        </div>
+
+        <div data-role="footer">
+            <h1><a href="#pageone">Return to Home</a></h1>
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript" src="cordova.js"></script>
+
+</body>
+
+</html>
